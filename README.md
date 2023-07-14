@@ -339,7 +339,7 @@ Nmap è uno strumento di scansione di rete ampiamente utilizzato per rilevare ho
    ```
    Esempio: `nmap 192.168.1.1`
 
-   Questo eseguirà una scansione di base sull'host di destinazione e mostrerà i porti aperti.
+   Questo eseguirà una scansione di base sull'host di destinazione e mostreràle porte aperte.
 
 2. Scansione di tutti i porti TCP:
    ```

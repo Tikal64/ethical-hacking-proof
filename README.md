@@ -330,8 +330,74 @@ Remember to replace `<target>` with the actual IP address or domain name you wan
 __________________________________
 
 
+## nmap
 
+Nmap è uno strumento di scansione di rete ampiamente utilizzato per rilevare host e servizi all'interno di una rete. Fornisce un'ampia gamma di funzionalità ed è disponibile per diverse piattaforme, inclusi Windows, macOS e Linux. 
+1. Scansione di base:
+   ```
+   nmap <target>
+   ```
+   Esempio: `nmap 192.168.1.1`
 
+   Questo eseguirà una scansione di base sull'host di destinazione e mostrerà i porti aperti.
+
+2. Scansione di tutti i porti TCP:
+   ```
+   nmap -p- <target>
+   ```
+   Esempio: `nmap -p- 192.168.1.1`
+
+   Questo eseguirà una scansione di tutti i porti TCP sull'host di destinazione.
+
+3. Scansione di un intervallo di porte specifico:
+   ```
+   nmap -p <port range> <target>
+   ```
+   Esempio: `nmap -p 1-1000 192.168.1.1`
+
+   Questo eseguirà una scansione dei porti compresi nell'intervallo specificato sull'host di destinazione.
+
+4. Scansione dei porti UDP:
+   ```
+   nmap -sU <target>
+   ```
+   Esempio: `nmap -sU 192.168.1.1`
+
+   Questo eseguirà una scansione dei porti UDP sull'host di destinazione.
+
+5. Scansione di più host:
+   ```
+   nmap <target1> <target2> ...
+   ```
+   Esempio: `nmap 192.168.1.1 192.168.1.2`
+
+   Questo eseguirà una scansione su più host contemporaneamente.
+
+6. Rilevamento del sistema operativo:
+   ```
+   nmap -O <target>
+   ```
+   Esempio: `nmap -O 192.168.1.1`
+
+   Questo cercherà di rilevare il sistema operativo dell'host di destinazione.
+
+7. Scansione con script:
+   ```
+   nmap -sC <target>
+   ```
+   Esempio: `nmap -sC 192.168.1.1`
+
+   Questo eseguirà una scansione utilizzando gli script di default di Nmap per rilevare informazioni aggiuntive sui servizi.
+
+8. Scansione "stealth" (scansione senza lasciare traccia):
+   ```
+   nmap -sS <target>
+   ```
+   Esempio: `nmap -sS 192.168.1.1`
+
+   Questo eseguirà una scansione "stealth" utilizzando la tecnica di scansione SYN.
+
+Questi sono solo alcuni esempi di utilizzo di Nmap. L'utility offre molte altre opzioni e funzionalità avanzate per adattarsi alle diverse esigenze di scansione di rete. 
 
 
 

@@ -262,7 +262,7 @@ proxychains firefox dnsleaktest.com
 _______________________________
 
 
-## How to use dimitry 
+## How to use dmitry 
 
 Dmitry is a powerful open-source intelligence (OSINT) tool included in Kali Linux, a popular penetration testing and ethical hacking distribution. Dmitry, also known as Deepmagic Information Gathering Tool, is designed to gather information about a target by performing various reconnaissance techniques.
 

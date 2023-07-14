@@ -3,13 +3,10 @@
 
 How to ping a host
 
-`
-`
-`
 
+
+```
 ping hostName
 
+```
 
-`
-`
-`

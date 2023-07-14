@@ -259,6 +259,84 @@ After running ProxyChains, you will notice that Firefox has been loaded with a d
 proxychains firefox dnsleaktest.com
 ```
 
+_______________________________
+
+
+## How to use dimitry 
+
+Dmitry is a powerful open-source intelligence (OSINT) tool included in Kali Linux, a popular penetration testing and ethical hacking distribution. Dmitry, also known as Deepmagic Information Gathering Tool, is designed to gather information about a target by performing various reconnaissance techniques.
+
+Dmitry provides a range of functionalities for information gathering, including:
+
+    DNS enumeration: Dmitry can perform DNS resolution to gather information about the target's domain names and associated IP addresses.
+
+    Whois lookup: It can retrieve registration information about a domain name, such as the owner's name, organization, contact details, and domain registrar.
+
+    Port scanning: Dmitry can scan a range of ports on a target system to identify open ports and services running on those ports.
+
+    Network footprinting: It can gather information about the target's network infrastructure, such as netblocks, autonomous systems (AS), and routing information.
+
+    Subdomain enumeration: Dmitry can perform subdomain brute-forcing to discover additional subdomains associated with a target domain.
+
+    Email address gathering: It can search for email addresses associated with a domain name or perform a search for email addresses using specific keywords.
+
+    TCP/IP fingerprinting: Dmitry can analyze the network packets to determine the operating system and other details about the target system.
+
+
+
+The syntax for running Dmitry in Kali Linux is as follows:
+
+```
+dmitry [-winsepfb] [-t <seconds>] [-o <filename>] <target>
+```
+
+Here's an explanation of the available options:
+
+- `-w`: Perform a whois lookup for the target domain.
+- `-i`: Perform an IP address lookup for the target.
+- `-n`: Perform a DNS lookup for the target domain.
+- `-s`: Perform a subdomain search for the target domain.
+- `-e`: Perform an email address search for the target domain.
+- `-p`: Perform a TCP port scan on the target.
+- `-f`: Perform a TCP fingerprinting scan on the target.
+- `-b`: Perform a TCP banner grab on the target.
+- `-t <seconds>`: Specify the timeout value for each operation in seconds.
+- `-o <filename>`: Save the output to the specified filename.
+
+The `<target>` can be an IP address or a domain name you want to gather information about.
+
+Here are a few examples:
+
+1. Perform a basic scan on a target domain:
+   ```
+   dmitry -winse <target>
+   ```
+
+2. Perform a TCP port scan and save the output to a file:
+   ```
+   dmitry -p -o output.txt <target>
+   ```
+
+3. Perform a TCP fingerprinting scan on a target IP address:
+   ```
+   dmitry -f <target>
+   ```
+
+Remember to replace `<target>` with the actual IP address or domain name you want to target.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

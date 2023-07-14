@@ -402,7 +402,7 @@ Questi sono solo alcuni esempi di utilizzo di Nmap. L'utility offre molte altre 
 
 
 
-
+https://github.com/giterlizzi/nmap-log4shell
 
 
 

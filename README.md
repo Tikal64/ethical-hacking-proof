@@ -405,7 +405,36 @@ Questi sono solo alcuni esempi di utilizzo di Nmap. L'utility offre molte altre 
 https://github.com/giterlizzi/nmap-log4shell
 
 
+_____________________________________________________________
 
+
+
+
+Here are some examples of auxiliary modules in Metasploit:
+
+1. Port Scanning:
+   - `auxiliary/scanner/portscan/tcp`: Scans for open TCP ports on a target.
+   - `auxiliary/scanner/portscan/udp`: Scans for open UDP ports on a target.
+
+2. Banner Grabbing:
+   - `auxiliary/scanner/http/http_title`: Grabs the HTTP title from web services.
+   - `auxiliary/scanner/ftp/ftp_version`: Retrieves version information from FTP services.
+
+3. Brute-Forcing:
+   - `auxiliary/scanner/ssh/ssh_login`: Performs brute-force SSH login attempts.
+   - `auxiliary/scanner/smb/smb_login`: Performs brute-force SMB login attempts.
+
+4. Information Gathering:
+   - `auxiliary/scanner/http/dir_scanner`: Scans for interesting directories on web servers.
+   - `auxiliary/scanner/netbios/nbname`: Performs NetBIOS name resolution.
+
+5. Denial of Service:
+   - `auxiliary/dos/http/slowloris`: Performs a Slowloris DoS attack against an HTTP server.
+   - `auxiliary/dos/udp/snarf`: Performs a UDP Snarf attack.
+
+To use any of these modules, you can run Metasploit, load the appropriate module, set the required options, and then execute the module.
+
+Please note that the list of modules and module names might change or get updated over time. Always ensure you have the latest version of Metasploit and use it responsibly and legally, with proper authorization and consent for penetration testing purposes. Unauthorized access or use of these tools is illegal and unethical.
 
 
 

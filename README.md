@@ -575,6 +575,11 @@ Nota : se non conosco la versione del servizio , provo a fare BANNER GRABBING :
 https://null-byte.wonderhowto.com/how-to/use-banner-grabbing-aid-reconnaissance-see-what-services-are-running-system-0203486/
 
 
+Faccio partire metasploit con il comando :
+
+```
+msfconsole
+```
 
 
 

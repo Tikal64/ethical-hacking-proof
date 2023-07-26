@@ -639,8 +639,19 @@ RPOST : PORTA REMOTA DA ATTACCARE.
 
 
 ________________________________
+setto l'host remoto da attaccare :
 
+set rhosts 192.168.1.23
 
+show payloads 
+
+set payloads 
+
+set payload 1
+
+exploit
+
+se non funziona cambio payload 0
 
 
 

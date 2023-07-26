@@ -419,7 +419,7 @@ Primo passaggio consiste nel trovare la macchina bersaglio e lanciare il seguent
 
 Otteniamo un qualcosa di simile a :
 
-
+<pre>
 PORT     STATE SERVICE     VERSION
 21/tcp   open  ftp         vsftpd 2.3.4
 |_ftp-anon: Anonymous FTP login allowed (FTP code 230)
@@ -565,7 +565,7 @@ Host script results:
 |_  WORKGROUP<1e>        Flags: <group><active>
 
 
-
+</pre>
 
 Decido ora di attaccare il servizio sulla porta 6667 che corrisponde ad  irc  UnrealIRCd,
 la nota importante è sapere la versione del servizio.

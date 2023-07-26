@@ -579,7 +579,50 @@ Faccio partire metasploit con il comando :
 
 ```
 msfconsole
+
 ```
+
+NOTA :
+
+Se avete un errore sul database not connected usate questi comandi :
+
+service postgresql start
+msfdb init
+msfconsole
+
+
+Comandi base che si utilizzano con https://www.metasploit.com/ .
+
+
+msf> show exploits
+
+msf> help search
+
+
+
+msf> help search
+
+
+search MS15-134
+search cve:2015-5119
+
+
+Se voglio andare per anno scrivo ;
+seach cve:2022
+
+
+nel mio caso sapendo che il servizio è unreal ...cerco unreal
+
+search unreal
+
+
+
+
+
+
+
+
+
 
 
 

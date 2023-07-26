@@ -408,7 +408,14 @@ https://github.com/giterlizzi/nmap-log4shell
 _____________________________________________________________
 
 
+How to hack Metasploitable 2 :
 
+
+
+
+
+
+_______________________________________________________________
 
 Here are some examples of auxiliary modules in Metasploit:
 

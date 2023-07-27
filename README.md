@@ -698,6 +698,9 @@ uso il comando set sessions  NUMERO_DELLA_SESSIONE
 lancio con exploit
 
 
+se voglio tornare a usare la shell vittima mi basta usare
+
+session -i NUMERO_DELLA_SESSIONE
 
 
 

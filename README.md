@@ -104,6 +104,20 @@ sudo macchanger -r eth0
 Nota : controllare il nome dell'interfaccia di rete.
 
 
+Per schedulare un job posso usare crontab --help
+
+Per schedulare un nuovo task posso usare il comando :
+
+```
+   sudo crontab -e
+
+```
+
+uso nano oppure un altro editor ed aggiungo a questo file:
+
+@reboot macchanger -r eth0
+
+
 ______________________________
 
 

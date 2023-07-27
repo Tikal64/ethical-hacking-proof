@@ -89,6 +89,22 @@ ping hostName
 
 _______________________________
 
+# HoW TO CHANGE MAC ADDRESS IN KALI LINUX 
+
+```
+sudo macchanger --help
+
+```
+
+```
+sudo macchanger -r eth0
+
+```
+
+Nota : controllare il nome dell'interfaccia di rete.
+
+
+______________________________
 
 
 ## How to use ProxyChains and tor

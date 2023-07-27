@@ -684,6 +684,19 @@ exploit
 se non funziona cambio payload 0
 
 
+Una volta lanciato l'exploit posso usare il comando 
+background per mettere la sessione in background.
+
+background
+
+Per sapere il numero della sessione posso usare il comando sessions
+
+Ora ad esempio carico il modulo per prelevare le password
+
+use post/linux/gather/hashdump
+uso il comando set sessions  NUMERO_DELLA_SESSIONE
+lancio con exploit
+
 
 
 
